@@ -1,0 +1,39 @@
+# class-action-finder profile: facts about you, used to match settlements.
+# The first run copies this file to profile.toml; edit that copy (it's git-ignored).
+#
+# `states` is used on every run (free, local): settlements limited to other states are left out.
+# Everything below it is read ONLY when you run with --match, which sends it to the Claude API.
+# Plain English is fine. One item per line; add rough years if you know them.
+
+# Two-letter codes for every state you've lived in (or bought things in) since about 2018,
+# e.g. states = ["NY", "NJ"]. Leave empty to see settlements from every state.
+states = []
+
+[about]
+birth_year = 0          # optional; a few settlements are age-limited
+jobs = """
+"""
+schools = """
+"""
+home = """
+"""                     # e.g. "rented in Boston 2019-2023", "own a house since 2023"
+
+[things]
+accounts_services = """
+"""                     # apps, streaming, social media, phone carrier, internet provider...
+devices = """
+"""                     # phones, computers and parts, game consoles...
+vehicles = """
+"""
+financial = """
+"""                     # banks, credit cards, loans, insurance
+health = """
+"""                     # pharmacies, hospitals, labs, health apps
+products = """
+"""                     # things you buy regularly: food, drinks, supplements, cosmetics, pet food...
+stores = """
+"""
+notices = """
+"""                     # settlement or data-breach notices you remember getting
+not_me = """
+"""                     # things you're sure you've never used

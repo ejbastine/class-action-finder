@@ -1,0 +1,13 @@
+# secrets and personal data
+.env
+profile.toml
+
+# outputs and caches
+data/
+report.html
+*.tmp
+
+# environment
+.venv/
+__pycache__/
+.pytest_cache/
